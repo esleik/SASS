@@ -1,0 +1,30 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+body {
+    @include font-styles($primary-font, 16px, 1.5);
+  }
+  
+  h1 {
+    @include font-styles($secondary-font, 32px, 1.2);
+  }
+  
+  h2 {
+    @include font-styles($secondary-font, 28px, 1.2);
+  }
+  
+  h3 {
+    @include font-styles($primary-font, 24px, 1.2);
+  }
+  
+  h4 {
+    @include font-styles($primary-font, 20px, 1.2);
+  }
+  
+  h5 {
+    @include font-styles($primary-font, 16px, 1.2);
+  }
+  
+  h6 {
+    @include font-styles($primary-font, 14px, 1.2);
+  }

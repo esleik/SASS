@@ -1,0 +1,31 @@
+
+
+@mixin flex-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin flex-header {
+
+    text-align: center;
+}
+
+@mixin flex-p{
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin encabezados ($tamano){
+    h1{
+        font-size: $tamano;
+    }
+    h2{
+        font-size: $tamano - 10;
+    }
+}
+
+@mixin font-styles($font-family, $font-size, $line-height) {
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: $line-height;
+  }

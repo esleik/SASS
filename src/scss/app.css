@@ -1,0 +1,15 @@
+header {
+  background-color: #a628f9;
+  padding: 5%;
+}
+header h1 {
+  color: #fff;
+  text-text-transform: uppercase;
+  text-text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=app.css.map */

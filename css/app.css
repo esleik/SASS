@@ -1,0 +1,75 @@
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+div header {
+  text-align: center;
+}
+div p {
+  display: flex;
+  justify-content: space-around;
+}
+@media (width <= 668px) {
+  div p {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+div img {
+  width: 6rem;
+}
+div h1 {
+  color: rgb(246, 100, 139);
+  font-size: 35px;
+  text-align: left;
+}
+div h2 {
+  color: rgb(246, 100, 139);
+  font-size: 27px;
+  text-align: left;
+}
+div nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f47ea7;
+}
+div nav a {
+  color: #fff;
+  font-size: 13px;
+  font-family: Arial;
+  text-decoration: none;
+}
+div nav a:hover {
+  font-weight: bold;
+  background-color: #4e1a71;
+}
+@media (width <= 668px) {
+  div nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+div .instagram {
+  background-color: #f56d9c;
+}
+div .faceboock {
+  background-color: #42f6b7;
+}
+div .linkedin {
+  background-color: #6adaf3;
+}
+div .youtube {
+  background-color: #f56884;
+}
+div .twitter {
+  background-color: #858585;
+}
+div .pinterest {
+  background-color: #f18538;
+}
+
+/*# sourceMappingURL=app.css.map */
